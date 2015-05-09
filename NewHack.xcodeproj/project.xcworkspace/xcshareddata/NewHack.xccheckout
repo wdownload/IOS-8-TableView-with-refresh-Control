@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A4AF08A2-6068-418F-9913-78C88F12D814</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NewHack</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>422DF56B03F765B42A12A0485C5435A13D81C25B</key>
+		<string>https://github.com/wdownload/IOS-8-TableView-with-refresh-Control.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NewHack.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>422DF56B03F765B42A12A0485C5435A13D81C25B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wdownload/IOS-8-TableView-with-refresh-Control.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>422DF56B03F765B42A12A0485C5435A13D81C25B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>422DF56B03F765B42A12A0485C5435A13D81C25B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NewHack</string>
+		</dict>
+	</array>
+</dict>
+</plist>
