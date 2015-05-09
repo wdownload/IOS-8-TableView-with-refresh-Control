@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5Bj-Rz-WY4">
+    <dependencies>
+        <deployment version="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Startups-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="HackTableViewController" customModule="NewHack" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="151" sectionHeaderHeight="22" sectionFooterHeight="22" id="sIs-44-RV0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="151" id="mKy-to-Zxy" customClass="StartupTableViewCell" customModule="NewHack" customModuleProvider="target">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mKy-to-Zxy" id="f6B-kG-29C">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xiaomi" translatesAutoresizingMaskIntoConstraints="NO" id="VfS-B7-UYU">
+                                            <rect key="frame" x="0.0" y="24" width="140" height="118"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="VfS-B7-UYU" secondAttribute="height" multiplier="70:59" id="3fG-9O-ye9"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nw0-ib-mdV">
+                                            <rect key="frame" x="156" y="24" width="204" height="21"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="XIAOMI">
+                                                    <attributes>
+                                                        <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="headTruncation" numberOfLines="0" baselineAdjustment="none" minimumFontSize="9" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aq7-UT-54E">
+                                            <rect key="frame" x="148" y="24" width="223" height="119"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="223" id="Vyg-Em-U7l"/>
+                                            </constraints>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Is  an Chinese Mobile maker ">
+                                                    <attributes>
+                                                        <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="truncatingTail" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="centerX" secondItem="VfS-B7-UYU" secondAttribute="centerX" constant="117.5" id="I18-Nr-9s3"/>
+                                        <constraint firstAttribute="centerY" secondItem="VfS-B7-UYU" secondAttribute="centerY" constant="-8" id="SFf-CV-6EN"/>
+                                        <constraint firstItem="VfS-B7-UYU" firstAttribute="width" secondItem="aq7-UT-54E" secondAttribute="height" multiplier="20:17" id="XEf-zF-KIA"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="aq7-UT-54E" secondAttribute="bottom" constant="-1" id="qIs-tf-7Xu"/>
+                                        <constraint firstAttribute="centerX" secondItem="aq7-UT-54E" secondAttribute="centerX" constant="-72" id="wrW-N6-4xT"/>
+                                        <constraint firstItem="aq7-UT-54E" firstAttribute="leading" secondItem="VfS-B7-UYU" secondAttribute="trailing" constant="8" id="xnw-1r-Zr3"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionImage" destination="aq7-UT-54E" id="AvI-3b-cd6"/>
+                                    <outlet property="logoImage" destination="VfS-B7-UYU" id="obv-IP-La5"/>
+                                    <outlet property="titleImage" destination="nw0-ib-mdV" id="1Rv-0j-24y"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="vXZ-lx-hvc" id="gvH-RS-41e"/>
+                            <outlet property="delegate" destination="vXZ-lx-hvc" id="nAc-ua-RJR"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Startups" id="uJ5-w2-7V5"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1056.5" y="306.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pdG-CE-px2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="5Bj-Rz-WY4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QnJ-dv-g2E">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="s3g-zu-zzZ">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="E05-4n-TRA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hsc-wd-tVj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="297" y="-420"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="xiaomi" width="2000" height="2000"/>
+    </resources>
+</document>
